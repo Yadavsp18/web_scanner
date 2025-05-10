@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scan Results</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <h2>Scan Results for {{ url }}</h2>
+    <ul class="list-group">
+        <li class="list-group-item">SQL Injection: {{ results.sql_injection|yesno:"Vulnerable,Safe" }}</li>
+        <li class="list-group-item">XSS: {{ results.xss|yesno:"Vulnerable,Safe" }}</li>
+    </ul>
+    <a href="/" class="btn btn-secondary mt-3">Scan Another</a>
+</div>
+</body>
+</html>

@@ -128,3 +128,8 @@ The project roadmap includes several planned enhancements:
 ## Conclusion
 
 The Web Scanner represents a powerful, comprehensive solution for web application security assessment. By combining a wide range of scanning capabilities with an intuitive interface and robust reporting, it streamlines the security testing workflow and helps organizations identify and address web application vulnerabilities before they can be exploited by malicious actors. Whether used by dedicated security teams, developers, or consultants, this tool provides the essential resources needed to conduct thorough security assessments in today's complex and evolving threat landscape.
+
+OUTPUT:
+![Image](https://github.com/user-attachments/assets/d27a2ded-006d-4e77-a924-a56576f47b68)
+
+![Image](https://github.com/user-attachments/assets/2198e40d-8851-4b51-a0ff-cc06f4ffec3d)
